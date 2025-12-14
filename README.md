@@ -55,7 +55,6 @@ python -m venv venv
 pip install numpy cirq quimb torch torch-hd torchdiffeq scipy
 
 ```
-```
 
 ## 🔬 Scientific Verification (Gold Standard)
 
