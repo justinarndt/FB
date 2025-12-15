@@ -161,4 +161,4 @@ python validate_all.py
 
 -----
 
-**Status (v1.3):** ✅ **ALL CLAIMS VALIDATED**
+**Status (v1.1):** ✅ **ALL CLAIMS VALIDATED**
