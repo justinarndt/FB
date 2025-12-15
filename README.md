@@ -172,4 +172,15 @@ python validate_all.py
 ---
 *\* **Hardware Note:** Latency benchmarks were performed on consumer hardware (Gigabyte Aero Laptop, CPU execution). Production implementation on FPGA/GPU accelerators is expected to achieve significantly lower latency (<10µs).*
 
+### **Hardware Implementation (RTL)**
+
+To bridge the gap between simulation and deployment, this repository includes the full synthesizable Verilog for the patent-claimed architecture.
+
+* **File:** `hardware/hdc_core_10k.v`
+* **Specs:** 10,000-bit Parallel XOR Array + 14-Stage Balanced Adder Tree.
+* **Latency:** Single-Cycle (Combinatorial) logic depth.
+* **Utilization:** Designed for Xilinx UltraScale+ / Google Coral TPU interface.
+
+*This RTL demonstrates the physical realization of the O(1) decoding logic, bypassing the Von Neumann bottleneck entirely.*
+
 **Final Status:** ✅ **ALL CLAIMS VALIDATED**
