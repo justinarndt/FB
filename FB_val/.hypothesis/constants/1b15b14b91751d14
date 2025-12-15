@@ -1,0 +1,4 @@
+# file: C:\FB\FB_val\validate_all.py
+# hypothesis_version: 6.148.7
+
+[100, 650, 685, 700, 715, 730, 760, 780, 800, '-v', '=', 'Helvetica', 'Helvetica-Bold', '__main__', 'tests/']
