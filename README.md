@@ -33,7 +33,7 @@
 ## **🛠️ Installation**
 
 \# Clone the repository  
-git clone \[https://github.com/justinarndt/FB.git\](https://github.com/justinarndt/FB.git)  
+git clone [https://github.com/justinarndt/FB.git](https://github.com/justinarndt/FB.git)  
 cd FB
 
 \# Initialize environment  
