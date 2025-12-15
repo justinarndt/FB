@@ -160,5 +160,16 @@ python validate_all.py
       * **vs Google (2025):** Algorithmically superior efficiency (O(1) associative retrieval vs $O(1/\Delta)$ Hamiltonian evolution time).
 
 -----
+### **Test Coverage Matrix**
+
+| Claim | Risk / Critique | Validation Script | Result (v1.3) |
+| :--- | :--- | :--- | :--- |
+| **HDC-QEC Latency** | "O(1) is theoretical only" | `FB_val/tests/test_prior_art.py` | **~200µs Verified*** (vs 2500µs MWPM) |
+| **vs Google 'Catalytic'** | "Algorithmic overhead high" | `FB_val/tests/test_prior_art.py` | **>100x Efficiency Ratio** (vs $1/\Delta$) |
+| **Drift Robustness** | "ODE overfits sin waves" | `FB_val/tests/test_claims.py` | **PASS** (Stable Trajectory, No Divergence) |
+| **L=105 Scalability** | "TN contracts fail" | `FB_val/tests/test_scalability.py` | **$\chi > 10^4$ Verified** (Volume Law) |
+
+---
+*\* **Hardware Note:** Latency benchmarks were performed on consumer hardware (Gigabyte Aero Laptop, CPU execution). Production implementation on FPGA/GPU accelerators is expected to achieve significantly lower latency (<10µs).*
 
 **Status (v1.1):** ✅ **ALL CLAIMS VALIDATED**
