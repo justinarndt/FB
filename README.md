@@ -147,7 +147,7 @@ python validate_all.py
 
 #### **2. Robustness (Correlated Burst Noise)**
 
-  * **Target:** Test decoder resilience against non-Markovian errors (e.g., cosmic ray bursts) where standard i.i.d. assumptions fail.
+  * **Target:** Test decoder resilience against non-Markovian errors (cosmic ray bursts) where standard i.i.d. assumptions fail.
   * **Script:** `FB_val/tests/test_robustness.py`
   * **Result:** Decoder maintains accuracy against **correlated bit-flip bursts**, outperforming standard MWPM which fails under correlated error models.
 
