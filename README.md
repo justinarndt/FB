@@ -1,3 +1,18 @@
+# ⚠️ PROJECT STATUS: UNIFIED
+**Active development has moved to: [HoloJAX SDK](https://github.com/justinarndt/HoloJAX_SDK.git)**
+
+**This project has been fully unified, expanded, and productionized in the JAX-native HoloJAX SDK.**
+
+The complete, reproducible implementation—integrating Stormbreaker (HDC decoding), Lazarus (Neural ODE drift calibration), and The Fridge (quantum benchmarking)—is now available here:
+
+→ https://github.com/justinarndt/HoloJAX_SDK
+
+Includes the full whitepaper: "HoloJAX: Breaking the Coherence Barrier" (December 17, 2025)
+Targeted for direct integration with Google Quantum AI's Cirq/Colossus stack on Sycamore & Willow processors.
+Patent Pending (U.S. Prov. App. 63/940,641)
+
+👉 **[Go to the Active Repository](https://github.com/justinarndt/HoloJAX_SDK.git)**
+
 # FINAL BOSS: The Holo-Neural Quantum Architecture
 
   
